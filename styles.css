@@ -117,6 +117,80 @@ body {
   margin: 0;
   padding: 0;
 }
+.popular-destination {
+  padding: 4rem 2rem;
+  text-align: center;
+  background-color: #fff;
+}
+
+.section-header h2 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.section-header p {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 2.5rem;
+}
+
+.destination-grid {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  overflow: hidden;
+  width: 280px;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: #df0606;
+}
+
+.card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.card-body {
+  padding: 1rem;
+  text-align: left;
+  position: relative;
+}
+
+.card-body h3 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 0.3rem;
+}
+
+.card-body p {
+  font-size: 0.9rem;
+  color: #888;
+  margin-bottom: 0.5rem;
+}
+
+.rating {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background-color: #1a73e8;
+  color: white;
+  padding: 0.3rem 0.7rem;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
 
 .testimonials-section {
   padding: 40px 20px;
@@ -166,7 +240,47 @@ body {
   color: #333;
   margin-bottom: 20px;
 }
+.showcase{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+.showcase-image img{
+  width: 300px;
+  height: auto;
+  border-radius: 0%;
+  object-fit: cover;
+  box-shadow: #555;
+  margin-right: 10px;
+}
+.showcase-content h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 20px
+}
+.showcase-content p{
+  margin-bottom: 16px;
+  font-size: 0.5rem;
+  color: #444;
+}
+.showcase-content{
+  width: 600px;
+}
+.showcase-btn{
+  display: inline-block;
+  padding: 12px 24px;
+  background-image: url("images/destination-3.jpg");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  border-radius: 6px;
+  transition: opacity 0.3s ease;
 
+}
 .user {
   display: flex;
   align-items: center;
