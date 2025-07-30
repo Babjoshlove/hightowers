@@ -9,7 +9,6 @@ body {
   background-color: #fff;
   color: #000;
 }
-
 header {
   display: flex;
   justify-content: space-between;
@@ -303,7 +302,7 @@ body {
 }
 .site-footer 
 { background:#222; 
-  olor:#fff; 
+  color:#fff; 
   padding:2rem 0; 
   margin-top:3rem; 
 }
@@ -322,5 +321,9 @@ body {
   padding:0.5rem 1rem; 
   cursor:pointer;
   border-radius:4px; 
+}
+footer{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
