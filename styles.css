@@ -2,10 +2,10 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Arial, sans-serif;
 }
 
 body {
-  font-family: 'Segoe UI', sans-serif;
   background-color: #fff;
   color: #000;
 }
@@ -245,6 +245,7 @@ body {
   justify-content: center;
   gap: 40px;
   flex-wrap: wrap;
+  margin: 100px;
 }
 .showcase-image img{
   width: 300px;
@@ -266,18 +267,22 @@ body {
 }
 .showcase-content{
   width: 600px;
+
+}
+.showcase-btn a{
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  
 }
 .showcase-btn{
   display: inline-block;
   padding: 12px 24px;
   background-image: url("images/destination-3.jpg");
-  background-size: cover;
   background-position: center;
-  color: white;
-  text-decoration: none;
-  font-weight: 600;
   border-radius: 6px;
   transition: opacity 0.3s ease;
+  width: 100%;
 
 }
 .user {
@@ -300,6 +305,7 @@ body {
   font-size: 0.85rem;
   color: #777;
 }
+/* footer section*/
 .site-footer 
 { background:#222; 
   color:#fff; 
@@ -326,4 +332,57 @@ footer{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
+/* features section*/
+.features{
+  background-color: white;
+  color: black;
+  height: 100px;
+  justify-content: center;
+  margin-left: 210px;
+}/*journey section*/
+.journey{
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+  align-items: center;
+}
+.journey-card{
+  background-color: #f8f9fc;
+  border-radius: 10px;
+  padding: 40px;
+  width: 300px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 10px;
+  margin-bottom: 100px;
+  gap: 20px;
+}
+.banner{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
+
+}
+.banner-card{
+  border-radius: 15px;
+  padding: 30px 30px 30px 30px;
+  box-shadow: #0c0000;
+  flex-direction: column;
+  background-color: #f8f9fc;
+  gap: 20px;
+  padding: 10px;
+  margin: 20px;
+  width: 300px;
+}
+.banner-card h4 {
+  font-size: 80px;
+  color: #007bff;
+
+}
+.banner-card p{
+  color: rgb(20, 19, 19);
+}
