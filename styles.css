@@ -15,11 +15,15 @@ header {
   position: relative;
   z-index: 2;
 }
-
 .logo {
   font-weight: bold;
   color: #1a73e8;
   font-size: 1.2rem;
+  margin-left: 70px;
+}
+.logo:hover{
+  color: #00aced;
+  transform: translateX(9px);
 }
 
 nav ul {
@@ -27,13 +31,21 @@ nav ul {
   list-style: none;
   gap: 1.5rem;
 }
+nav ul li:hover{
+  color: #00aced;
+  transform: translateX(9px);
+  font-size: 18px;
+}
 
 nav a {
   text-decoration: none;
-  color: #333;
+  color: #1a73e8;
   font-weight: 500;
 }
-
+nav a:hover{
+  color: #00aced;
+  transform: translateX(9px);
+}
 .btn-header {
   border: 1.5px solid #1a73e8;
   padding: 0.4rem 1rem;
@@ -46,14 +58,14 @@ nav a {
 .hero {
   background-image: url("images/header.png"), 
   url("images/header-bg.jpg");
-  height: 80vh;
+  height: 90vh;
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  padding-left: 50px;
-  border-radius: 20px;
+  padding-left: 70px;
+  border-radius: 50px;
   overflow: hidden;
-  margin: 1rem;
+  margin: 0.5rem;
   position: relative;
 }
 
@@ -70,27 +82,32 @@ nav a {
   z-index: 1;
   color: #000;
   max-width: 500px;
+  margin-left: 70px;
 }
 
 .subheading {
-  font-size: 0.75rem;
+  font-size: 1rem;
   letter-spacing: 1px;
   margin-bottom: 0.5rem;
   color: #333;
+  font-weight: 700;
 }
 
 .hero-text h1 {
-  font-size: 2.5rem;
+  font-size: 3.5rem;
   line-height: 1.3;
   font-weight: bold;
 }
 
-.hero-text span {
-  color: #1a73e8;
+.span-flight {
+  color: white;
 }
-
+a i.fa-circle-play {
+  color:white;
+  font-size: 24px;
+}
 .highlight {
-  font-size: 2rem;
+  font-size: 4rem;
   font-weight: bold;
   color: #1a73e8;
 }
@@ -358,8 +375,8 @@ nav a {
   flex-direction: row;
 }
 .discover-title{
-  align-items: center;
-
+  align-items:left;
+  margin:200px;
 }
 .discover-box{
   color:#0c0000;
@@ -430,4 +447,12 @@ nav a {
 }
 .copyright{
   justify-content: center;
+}
+.footer-col ul li a:hover {
+  color: #027aa5;
+  transform: translateX(5px);
+}
+.footer-col ul li:hover {
+  color: #00aced;
+  transform: translateX(9px);
 }
